@@ -1,0 +1,31 @@
+body {
+    background-color: #2e3440;
+    color: #d8dee9;
+}
+
+a,
+a:visited,
+a:active {
+    color: #d8dee9;
+}
+
+p {
+    color: #81a1c1;
+}
+
+#title, #beschreibung, #donedate{
+    background-color: #485869;
+}
+
+input, textarea{
+    color: #d8dee9;
+}
+
+textarea:focus, input:focus {
+    color: #d8dee9;
+}
+
+#addEvent{
+    color: #d8dee9;
+    background-color: #485869;
+}

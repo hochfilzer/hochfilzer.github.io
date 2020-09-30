@@ -1,0 +1,208 @@
+body {
+    font-family: Hack, monospace;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px 5px 0;
+}
+
+.documents{
+    display: block;
+}
+
+#begin,
+#subjects {
+    margin-left: -40px;
+}
+
+#subjects li {
+    padding-right: 0;
+}
+
+hr {
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    border-top: 1px solid #bac0ca;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+
+
+#mainContent {
+    position: relative;
+    padding-top: 10px;
+}
+
+#Portrait {
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 160px;
+    height: auto;
+    box-shadow: #4c566a 6px 2px 5px;
+}
+
+#aboutMeText {
+    width: 390px;
+}
+
+footer {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#ThemeToggle {
+    position: absolute;
+    right: 5px;
+    margin-top: -18px;
+}
+
+#ThemeToggle:hover {
+    cursor: pointer;
+}
+footer img {
+    width: 20px;
+    height: auto;
+}
+
+#loadOverlay{
+    display: none;
+}
+
+a,
+a:visited,
+a:active
+a:not(img){
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.Photos {
+    max-width: 175px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    -webkit-filter: brightness(100%);
+    border: 1px solid #a9a4a9;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.Photos:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.PhotoRefs,
+.PhotoRefs:hover{
+    border-bottom: none;
+}
+
+#title {
+    width: 550px;
+    height: 20px;
+}
+
+#beschreibung{
+    width: 550px;
+    max-width: 550px;
+    min-width: 550px;
+    height: 80px;
+}
+
+#title, #beschreibung, #donedate{
+    border-radius: 7px;
+}
+
+#donedate{
+    padding-left: 7px;
+    margin-bottom: 10px;
+}
+
+#addEvent{
+    margin-bottom: 10px;
+}
+
+#currentEntriesContainer{
+    position: relative;
+}
+
+.delete{
+    position: absolute;
+    right: 10px;
+    margin-top: -24px;
+}
+
+#currentEntryTitles{
+    margin: 0;
+}
+
+.singleEntry{
+    position: relative;
+}
+
+.timeStamp{
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+
+.logout{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#uploader {
+    width: 300px;
+    height: 200px;
+    background: #f4b342;
+    padding: 10px;
+}
+
+#uploader.highlight {
+    background:#ff0; 
+}
+
+#uploader.disabled {
+    background:#aaa;
+}
